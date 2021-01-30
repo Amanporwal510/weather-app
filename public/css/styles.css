@@ -1,0 +1,78 @@
+* {
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #ffabe1;
+}
+
+.breadcrumb {
+    margin: 1.2rem 0;
+    height: 12rem;
+}
+
+nav{
+    display: flex;
+}
+
+nav header {
+    margin: 1rem 3rem 0 3rem;
+    font-weight: bold;
+    padding: 0;
+}
+
+nav header h1{
+    font-size: 3rem;
+}
+
+nav p {
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+.container .content {
+    flex-grow: 1;
+}
+
+#list-item {
+    display: flex;
+}
+
+#description {
+    flex-grow: 1;
+}
+
+#alert {
+    display: none;
+    margin: 0 auto;
+    width: 95%;
+    position: fixed;
+    z-index: 1;
+    top: 2rem;
+    left: 2rem;
+    justify-content: center;
+}
+
+footer {
+    padding-top: 1rem ;
+    border-top: 1px solid gray;
+    width: 100%;
+    margin: 2rem;
+}
+
+#grow {
+    flex-grow: 1;
+}
+
+img {
+    width: 40%;
+}

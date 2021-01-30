@@ -1,0 +1,38 @@
+
+    {{>header}}
+    <div class="container">
+        <nav class="breadcrumb rounded bg-light">
+            <header>
+                <h1>{{title}}</h1>
+            </header>
+            <p>
+                <i>The weather app, one of the best weather application on web, one of the best choose fore you. <br>
+                Weather forecast, which has accurate weather information for anytime and everywhere.</i>
+            </p>
+        </nav>
+        <div class="content">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="card" style="width: 30rem; margin: 2rem;">
+                <div class="card-header">
+                    <b>Weather Information</b>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="list-item"><span id="description">Country : </span><span id="value"></span></li>
+                    <li class="list-group-item" id="list-item"><span id="description">Nearest Region : </span><span id="value"></span></li>
+                    <li class="list-group-item" id="list-item"><span id="description">Temperature : </span><span id="value"></span></li>
+                    <li class="list-group-item" id="list-item"><span id="description">FeelsLike : </span><span id="value"></span></li>
+                    <li class="list-group-item" id="list-item"><span id="description">Humidity : </span><span id="value"></span></li>
+                    <li class="list-group-item" id="list-item"><span id="description">WindSpeed : </span><span id="value"></span></li>
+                </ul>
+            </div>
+        </div>
+        {{>footer}}
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>
